@@ -10,6 +10,10 @@ The widely applications of deep learning have raised concerns about the privacy 
 
 ## Usage
 
+### Hardware Requirements
+
+Any Nvidia GPU with 8GB or larger memory is ok. The experiments were initially performed on a Nvidia Tesla V100 GPU using the HPC platform of Southeast University. Later experimets were performed on a PC with a Nvidia RTX 3080 GPU. The code supports both Windows and Linux environment.
+
 ### Required Runtime Libraries
 
 * [Anaconda](https://www.anaconda.com/download/)
@@ -17,6 +21,12 @@ The widely applications of deep learning have raised concerns about the privacy 
 * [zhangzp9970/torchplus](https://github.com/zhangzp9970/torchplus) -- `conda install torchplus -c zhangzp9970`
 
 The code is compatable with the latest version of all the software.
+
+### Datasets
+
+* MNIST -- `torchvision.datasets.MNIST(root[, train, transform, ...])`
+* Fashion-MNIST -- `torchvision.datasets.FashionMNIST(root[, train, transform, ...])`
+* FaceScrub -- can be downloaded and processed using [these scripts](https://github.com/lightalchemist/FaceScrub). Crop the images using the official bounding box is enough.
 
 ### File Description
 
@@ -31,6 +41,8 @@ The code is compatable with the latest version of all the software.
 * entropy_MNIST.py -- calculates the entropy of the hidden information in the prediction vectors.
 
 The code can be directly runned without any parameters. All the parameters are defined in each python script seperately.
+
+NOTE: For reproducing the results on Fashion-MNIST dataset, change the dataset function handles in MNIST codes.
 
 ## License
 
