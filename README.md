@@ -62,11 +62,12 @@ You should have received a copy of the GNU General Public License along with thi
   journal={IEEE Transactions on Information Forensics and Security}, 
   title={Analysis and Utilization of Hidden Information in Model Inversion Attacks}, 
   year={2023},
-  volume={},
+  volume={18},
   number={},
-  pages={1-1},
-  doi={10.1109/TIFS.2023.3295942}
-}
+  pages={4449-4462},
+  keywords={Image reconstruction;Training;Task analysis;Generative adversarial networks;Faces;Predictive models;Entropy;Deep learning;security;privacy;deep neural networks;model inversion attack},
+  doi={10.1109/TIFS.2023.3295942}}
+
 
 ```
 
