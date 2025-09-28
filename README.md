@@ -17,8 +17,8 @@ Any Nvidia GPU with 8GB or larger memory is ok. The experiments were initially p
 ### Required Runtime Libraries
 
 * [Anaconda](https://www.anaconda.com/download/)
-* [Pytorch](https://pytorch.org/) -- `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
-* [zhangzp9970/torchplus](https://github.com/zhangzp9970/torchplus) -- `conda install torchplus -c zhangzp9970`
+* [Pytorch](https://pytorch.org/) -- `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129`
+* [zhangzp9970/torchplus](https://github.com/zhangzp9970/torchplus) -- `pip install tplus`
 
 The code is compatable with the latest version of all the software.
 
@@ -56,19 +56,17 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Citation
 
-```
-@ARTICLE{10184490,
-  author={Zhang, Zeping and Wang, Xiaowen and Huang, Jie and Zhang, Shuaishuai},
-  journal={IEEE Transactions on Information Forensics and Security}, 
-  title={Analysis and Utilization of Hidden Information in Model Inversion Attacks}, 
-  year={2023},
-  volume={18},
-  number={},
-  pages={4449-4462},
-  keywords={Image reconstruction;Training;Task analysis;Generative adversarial networks;Faces;Predictive models;Entropy;Deep learning;security;privacy;deep neural networks;model inversion attack},
-  doi={10.1109/TIFS.2023.3295942}}
-
-
+```bibtex
+ @article{Zhang_Wang_Huang_Zhang_2023,
+title={Analysis and Utilization of Hidden Information in Model Inversion Attacks},
+volume={18},
+ISSN={1556-6021},
+DOI={10.1109/TIFS.2023.3295942},
+journal={IEEE Transactions on Information Forensics and Security},
+author={Zhang, Zeping and Wang, Xiaowen and Huang, Jie and Zhang, Shuaishuai},
+year={2023},
+pages={4449–4462}
+}
 ```
 
 ## Acknowledgements
